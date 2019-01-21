@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 import * as noteActions from '../actions/noteActions';
-import { Grid, Row, Col, Form, FormGroup, FormControl, ControlLabel } from 'react-bootstrap';
+import { Col, Form, FormGroup, FormControl, ControlLabel } from 'react-bootstrap';
 
 class EditNote extends Component {
     constructor(props) {
@@ -15,12 +15,6 @@ class EditNote extends Component {
             note: this.props.note,
             title: '',
         }
-    }
-
-    componentWillReceiveProps(nextProps) {
-        // if(this.props.note.id != nextProps.note.id) {
-        //     this.setState({note: nextProps.note});
-        // }
     }
 
     updateNoteState(event) {

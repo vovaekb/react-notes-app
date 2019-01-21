@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import * as noteActions from '../actions/noteActions';
 import NotesList from './NotesList';
 
 class Index extends Component {

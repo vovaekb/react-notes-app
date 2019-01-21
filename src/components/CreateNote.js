@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import {connect} from 'react-redux';  
 import {bindActionCreators} from 'redux';  
 import * as noteActions from '../actions/noteActions';
-import { Grid, Row, Col, Form, FormGroup, FormControl, ControlLabel } from 'react-bootstrap';
+import { Col, Form, FormGroup, FormControl, ControlLabel } from 'react-bootstrap';
 
 class CreateNote extends Component {
     constructor(props) {

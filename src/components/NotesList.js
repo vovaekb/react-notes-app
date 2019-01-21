@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { ListGroup, ListGroupItem, Button } from 'react-bootstrap';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { ListGroup, ListGroupItem } from 'react-bootstrap';
+import { Link } from "react-router-dom";
 
 export default class NotesList extends Component {
     constructor(props) {
